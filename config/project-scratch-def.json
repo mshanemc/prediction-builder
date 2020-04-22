@@ -1,20 +1,24 @@
 {
-    "orgName": "Einstein Prediction Builder Demo",
-    "description": "einstein-prediction-builder",
-    "edition": "Developer",
-    "hasSampleData": true,
-    "features": ["EinsteinBuilderFree"],
-    "settings": {
-        "lightningExperienceSettings": {
-            "enableS1DesktopEnabled": true
-        },
-        "mobileSettings": {
-            "enableS1EncryptedStoragePref2": false
-        },
-        "securitySettings": {
-            "passwordPolicies": {
-                "enableSetPasswordInApi": true
-            }
-        }
+  "orgName": "Einstein Prediction Builder Demo",
+  "description": "einstein-prediction-builder",
+  "edition": "Developer",
+  "hasSampleData": true,
+  "features": [
+    "EinsteinAnalyticsPlus",
+    "EinsteinBuilder",
+    "AnalyticsAdminPerms"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "securitySettings": {
+      "passwordPolicies": {
+        "enableSetPasswordInApi": true
+      }
     }
+  }
 }
